@@ -1,0 +1,13 @@
+
+@media screen and (min-width: 1280px) {
+.teddy{
+    left: 54%;
+    top: 25%;
+    right: auto;
+}
+
+ .heart{
+    left: 50%;
+    top: 50%;
+ }
+}

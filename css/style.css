@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+*{
+    font-family: "Lexend", sans-serif;
+}
+.bg-blue{
+    background-color: #C3DBF8;
+}
+.bg-soft{
+    background-color: ghostwhite;
+}
+nav img{
+    width: 70px;
+}
+.teddy{
+    left: 20%;
+    right: 25%;
+    top: 90%;
+}
+
+ .heart{
+    left: 50%;
+    top: 50%;
+ }
+ .circle-shape{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+ }
+.accordion
+
+ {
+   
+    --bs-accordion-border-color: transparent !important;
+
+ 
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color:yellow;
+    
+  
+    
+} 
+/* Team Section */
+.team-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(195, 219, 248, 0.3);
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.team-img-wrapper img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
